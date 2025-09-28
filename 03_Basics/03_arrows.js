@@ -38,3 +38,13 @@ func()
 const addTwo = (num1, num2) => ({username: "Anvesh"}) 
  console.log(addTwo(4,5)); 
  
+ // Immediatily Invoked Function Expression (IIFE)
+    // named IIFE
+    (function func1(){
+        console.log("IIFE");
+    })();
+
+    // Unnamed IIFE
+    ((num) => {
+        console.log(`IIFE arrow function: ${num}`);
+    })(2);
