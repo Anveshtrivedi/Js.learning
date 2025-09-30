@@ -58,6 +58,8 @@ const course = {
 
 // course.courseInstructor
 
+// or it can be accessed like this also
+
 const {courseInstructor: instructor} = course
 
 console.log(instructor);
